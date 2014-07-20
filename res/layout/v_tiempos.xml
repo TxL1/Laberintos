@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo">
+		      
+	    <ImageView
+        android:id="@+id/grande"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+    	android:scaleType="fitXY" 
+    	android:src="@drawable/person" />
+
+        <Button android:id="@+id/bContinuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vacio"
+        android:text="@string/continuar"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <Spinner 
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/dificultad"
+        android:textColor="#CCCCCC" 
+        android:textSize="20sp"/>
+        
+     	<TextView android:id="@+id/tmejor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#009d00"
+        android:text="@string/mejorTiempo"/>
+     	
+     	<TextView android:id="@+id/ttmejor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/mejorTiempo"/>
+     	
+     	<TextView android:id="@+id/ttop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#009d00"
+        android:text="@string/mejoresTiempos"/>
+     	
+     	<ListView android:id="@+id/lista"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:drawSelectorOnTop="false"
+        android:layout_below="@+id/ttop"
+        android:listSelector="@android:color/transparent"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:gravity="center" />
+            		     	
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp" >
+ 
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+	<TextView
+        android:id="@+id/lposicion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/listaPosicion"
+        android:textColor="#009d00"
+        android:textSize="15sp" >
+    </TextView>
+ 
+    <TextView
+        android:id="@+id/lnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/listaNombre"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@+id/lposicion"
+        android:layout_alignBaseline="@+id/lposicion"
+        android:textSize="20sp" >
+    </TextView>
+    
+    <TextView
+        android:id="@+id/lfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/listaFecha"
+        android:textColor="#009d00"
+        android:layout_toRightOf="@+id/lposicion"
+		android:layout_below="@+id/lposicion"
+        android:textSize="10sp" >
+    </TextView>
+    
+        <TextView
+        android:id="@+id/lpuntuacion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@+id/listaPuntuacion"
+        android:textColor="#ffffff"
+        android:layout_toRightOf="@+id/lfecha"
+        android:gravity="right"
+        android:textSize="20sp" >
+    </TextView>
+ 
+  </RelativeLayout>
+</LinearLayout>

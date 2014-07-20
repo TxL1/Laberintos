@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LoCo</string>
+
+     <string name="combate">Combate</string>
+     <string name="solo">Solo</string>
+     <string name="tiempos">Tiempos</string>
+     <string name="continuar">Continuar</string>
+     <string name="cancelar">Cancelar</string>
+     <string name="nombre">Nombre</string>
+     <string name="dificultad">Dificultad</string>
+     <string name="tiempo">Tiempo</string>
+     <string name="facil">Fácil</string>
+     <string name="normal">Normal</string>
+     <string name="dificil">Díficil</string>
+     <string name="insano">Insano</string>
+     <string name="otra">Otra</string>
+     <string name="salir">Salir</string>
+     <string name="seguir">Seguir</string>
+     
+     <string name="mIniciando">Iniciando partida..</string>
+     <string name="mCargando">Cargando laberinto..</string>
+     <string name="mErrorCargando">Error al cargar lista.</string> 
+     <string name="mCargandoFacil">Cargando TOP fácil..</string>
+     <string name="mCargandoNormal">Cargando TOP normal..</string>
+     <string name="mCargandoDificil">Cargando TOP díficil..</string>
+     <string name="mCargandoInsano">Cargando TOP insano..</string>
+     <string name="mEsperandoRespuesta">Esperando respuesta..</string> 
+     <string name="mConexionLista">Es necesario tener conexión a Internet para ver la lista.</string> 
+     
+     <string name="mejorTiempo">Mejor tiempo</string>
+     <string name="mejoresTiempos">50 Mejores tiempos</string>
+    
+</resources>

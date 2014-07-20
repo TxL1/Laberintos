@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tams">
+        <item>Fácil</item> <!-- 8x8 -->
+        <item>Normal</item> <!-- 12x12 -->
+        <item>Díficil</item> <!-- 14x14 -->
+        <item>Insano</item> <!-- 16x16 -->
+    </string-array>
+</resources>

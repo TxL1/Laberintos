@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+		    
+	    <RelativeLayout
+	        android:id="@+id/relativeLayout1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/fondo">
+			             				        	  		
+		        <ImageView
+		            android:id="@+id/person"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" />
+			      
+		        <ImageView
+		            android:id="@+id/galleta0"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/galleta" />
+		        
+		        <ImageView
+		            android:id="@+id/galleta1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/galleta" />
+		        		        
+		  		<ImageView
+		            android:id="@+id/galleta2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/galleta" />
+		        		        		        
+		        <ImageView
+		            android:id="@+id/galleta3"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/galleta" />
+		        
+		        <ImageView
+		            android:id="@+id/galleta4"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/galleta" />
+			        		        
+	  </RelativeLayout>
+
+		
+	  		<View android:id="@+id/fondo"
+	  		    android:layout_width="fill_parent"
+	  		    android:layout_height="fill_parent"
+	  		    android:background="#000000"/>	
+	  
+		     <ImageView
+	            android:id="@+id/barra"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/barra" />
+		     
+		     <ImageView
+	            android:id="@+id/barra2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/barra" />
+		     
+		      <ImageView
+		        android:id="@+id/mini"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" 
+		        android:src="@drawable/person"/>
+		      
+		      <TextView android:id="@+id/tnombre"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"/>
+		     
+		     <TextView android:id="@+id/tcuenta"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:text="00:00"/>
+		     
+		     <TextView android:id="@+id/tdificultad"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#009d00"
+	             android:text="@string/dificultad"/>
+		     
+		     <TextView android:id="@+id/ttdificultad"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#ffffff"/>
+		     
+		     <TextView android:id="@+id/tmejor"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#009d00"
+	             android:text="@string/mejorTiempo"/>
+		     
+		     <TextView android:id="@+id/ttmejor"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#ffffff"/>
+		     		     
+		     <TextView android:id="@+id/ttiempo"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#009d00"
+	             android:text="@string/tiempo"/>
+		     
+		     <TextView android:id="@+id/tttiempo"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#ffffff"/>
+		     
+		      <ImageView
+	            android:id="@+id/gall0"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/galleta_press" />
+		      		     
+		      <ImageView
+	            android:id="@+id/gall1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/galleta_press" />
+		      		     
+		      <ImageView
+	            android:id="@+id/gall2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/galleta_press" />
+		      		     
+		      <ImageView
+	            android:id="@+id/gall3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/galleta_press" />
+		      
+		      <ImageView
+	            android:id="@+id/gall4"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/galleta_press" />
+		     
+		     <ImageView
+	            android:id="@+id/grande"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/person" />
+
+         	 <Button android:id="@+id/bIzq"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/trans"/>
+         	 
+         	 <Button android:id="@+id/bDer"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/trans"/>       	 
+         	 
+         	 <Button android:id="@+id/bTop"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/trans"/>
+         	 
+         	 <Button android:id="@+id/bBot"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/trans"/>
+         	 
+         	 
+         	 <Button android:id="@+id/bMenu"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/salir"/>
+         	 
+         	 <Button android:id="@+id/bSilencio"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/silenciar"/>
+         	 
+         	 
+         	 <Button android:id="@+id/bOtra"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/vacio"
+		        android:text="@string/otra"
+		        android:textColor="#ffffff"
+		        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+	        <Button android:id="@+id/bSalir"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/vacio"
+		        android:text="@string/salir"
+		        android:textColor="#ffffff"
+		        android:textAppearance="?android:attr/textAppearanceLarge"/>
+	        
+	        <ImageView
+	            android:id="@+id/top"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"/>
+	        	
+	        <ImageView
+	            android:id="@+id/der"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"/>
+	        
+	        <ImageView
+	            android:id="@+id/izq"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"/>
+	        
+	        <ImageView
+	            android:id="@+id/bot"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"/>
+	        
+	 	<com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="a151463bf1b3e8e"
+        ads:loadAdOnCreate="true" 
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />   
+         	
+</RelativeLayout>

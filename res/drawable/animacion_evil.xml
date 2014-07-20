@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:drawable="@drawable/evil_person" android:duration="500" />
+    <item android:drawable="@drawable/evil_person2" android:duration="200" />
+    <item android:drawable="@drawable/evil_person" android:duration="200" />
+    <item android:drawable="@drawable/evil_person2" android:duration="200" />
+</animation-list>

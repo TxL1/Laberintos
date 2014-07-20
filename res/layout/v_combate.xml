@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/degradado">
+	
+ <ScrollView android:id="@+id/scroll" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:scrollbars="none"
+	    android:background="@drawable/degradado">
+	     
+		   <HorizontalScrollView android:id="@+id/hscroll"   
+		   android:scrollbars="none"
+		   android:layout_width="wrap_content" 
+		   android:layout_height="wrap_content">
+		    
+			    <RelativeLayout
+			        android:id="@+id/relativeLayout1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content">
+			             				        	  		
+		        <ImageView
+		            android:id="@+id/person"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" />
+		        
+		       <ImageView
+		            android:id="@+id/evil"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" />
+		       
+		       <ImageView
+		            android:id="@+id/lucha"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" />
+			      
+		        <ImageView
+		            android:id="@+id/galleta"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/galleta" />
+			        
+		        
+			    </RelativeLayout>
+		    
+		    </HorizontalScrollView>
+	</ScrollView>
+		
+	  		<View android:id="@+id/fondo"
+	  		    android:layout_width="fill_parent"
+	  		    android:layout_height="fill_parent"
+	  		    android:background="#000000"/>	
+	  
+		     <ImageView
+	            android:id="@+id/barra"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/barra" />
+		     
+		     <TextView android:id="@+id/tcuenta"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:text="00:00"/>
+		     
+		     <TextView android:id="@+id/tnivel"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#009d00"
+	             android:text="Nivel"/>
+		     
+		     <TextView android:id="@+id/ttnivel"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#ffffff"
+	             android:text="Nivel"/>
+		     
+		     <TextView android:id="@+id/tmejor"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#009d00"
+	             android:text="Mejor tiempo"/>
+		     
+		     <TextView android:id="@+id/ttmejor"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#ffffff"
+	             android:text="Mejor tiempo"/>
+		     		     
+		     <TextView android:id="@+id/tpuntos"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#009d00"
+	             android:text="Puntos"/>
+		     
+		     <TextView android:id="@+id/ttpuntos"
+		         android:layout_width="wrap_content"
+	             android:layout_height="wrap_content" 
+	             android:textAppearance="?android:attr/textAppearanceLarge"
+	             android:textColor="#ffffff"
+	             android:text="Puntos"/>
+		     
+		      <ImageView
+	            android:id="@+id/gall0"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/galleta_press" />
+		      		     
+		      <ImageView
+	            android:id="@+id/gall1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/galleta_press" />
+		      		     
+		      <ImageView
+	            android:id="@+id/gall2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/galleta_press" />
+		      		     
+		      <ImageView
+	            android:id="@+id/gall3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/galleta_press" />
+		     
+		     <ImageView
+	            android:id="@+id/grande"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:adjustViewBounds="true"
+	        	android:scaleType="fitXY"
+	            android:src="@drawable/person" />
+
+         	 <Button android:id="@+id/bIzq"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/trans"/>
+         	 
+         	 <Button android:id="@+id/bDer"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/trans"/>       	 
+         	 
+         	 <Button android:id="@+id/bTop"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/trans"/>
+         	 
+         	 <Button android:id="@+id/bBot"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/trans"/>
+         	 
+         	 
+         	 <Button android:id="@+id/bMenu"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/boton_salir"/>
+         	 
+         	 
+         	 <Button android:id="@+id/bOtra"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/vacio"
+		        android:text="Seguir"
+		        android:textColor="#ffffff"
+		        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+	        <Button android:id="@+id/bSalir"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/vacio"
+		        android:text="Salir"
+		        android:textColor="#ffffff"
+		        android:textAppearance="?android:attr/textAppearanceLarge"/>
+         	
+</RelativeLayout>
+

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondo">
+		  
+    	<ImageView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+    	android:scaleType="fitXY" 
+    	android:src="@drawable/titulo" />
+    
+	     <ImageView
+        android:id="@+id/grande"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+    	android:scaleType="fitXY" 
+    	android:src="@drawable/person" />
+	     
+	    <ImageView
+        android:id="@+id/pildoras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+    	android:scaleType="fitXY"
+        android:src="@drawable/galleta" />
+	    
+        <Button android:id="@+id/bCombate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vacio"
+        android:text="@string/combate"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <Button android:id="@+id/bSolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vacio"
+        android:text="@string/solo"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+                
+        <Button android:id="@+id/bPuntuaciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vacio"
+        android:text="@string/tiempos"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+	    	     
+	     			<RelativeLayout
+			        android:id="@+id/relativeLayout1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content">
+			        
+	     			</RelativeLayout>    
+	     			
+	    <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="a151463bf1b3e8e"
+        ads:loadAdOnCreate="true" 
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />   
+    		     	
+</RelativeLayout>
